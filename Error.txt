@@ -1,0 +1,15 @@
+<?php
+
+   function custom_error($errorno,$errorstr)
+   {
+       echo "<b>Error:<b/> . [$errorno] . $errorstr<br/>";
+	   echo "Ending script";
+	   die();
+   
+   }
+
+
+
+
+
+?>
